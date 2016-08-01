@@ -19,7 +19,7 @@ let Footer = (props) => (
 				<div className="row">
 					<div className="question col-md-6">
 						<h4>3. Are you collecting this data?</h4>
-						<p>No data is collected, and if you'd like to verify that you can view the project source code on Github. Your entries are persisted on your browser for convenience, and you can <a href="#" onClick={props.onForget}>click here</a> to clear them at any time.</p>
+						<p>No data is collected, and if you'd like to verify that you can view the project source code on <a href="https://github.com/schnerd/options-calculator" target="_blank">Github</a>. Your entries are persisted on your browser for convenience, and you can <a href="#" onClick={props.onForget}>click here</a> to clear them at any time.</p>
 					</div>
 					<div className="question col-md-6">
 						<h4>4. Am I going to be rich?</h4>
@@ -31,7 +31,7 @@ let Footer = (props) => (
 			<div className="links">
 				<span>By <a href="https://twitter.com/dschnr" target="_blank">@dschnr</a></span>
 				&nbsp;&middot;&nbsp;
-				<span>Source code available on Github</span>
+				<span>Source code available on <a href="https://github.com/schnerd/options-calculator" target="_blank">Github</a></span>
 			</div>
 		</div>
 	</div>
